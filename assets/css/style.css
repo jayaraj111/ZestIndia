@@ -14,6 +14,8 @@ body {
   color: #444444;
 }
 
+
+
 a {
   text-decoration: none;
   color: #ffb03b;
@@ -1533,6 +1535,15 @@ section {
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
+}
+
+.btnsubmit{
+  background: #ffb03b;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
