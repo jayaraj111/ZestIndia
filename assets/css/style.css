@@ -1242,8 +1242,8 @@ section {
 .chefs .member .member-info {
   position: absolute;
   bottom: -80px;
-  left: 20px;
-  right: 20px;
+  left: 10px;
+  right: 10px;
   background: #fff;
   padding: 20px 0;
   color: #433f39;
