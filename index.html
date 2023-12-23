@@ -34,6 +34,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
 
+  <link href="https://fonts.cdnfonts.com/css/nike" rel="stylesheet">
+
 
 </head>
 
@@ -42,8 +44,8 @@
   <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-flex align-items-center fixed-top topbar-transparent">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start">
-      <i class="bi bi-phone d-flex align-items-center"><span>+91 97474 87010</span></i>
-      <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"><span>Mon-Sat: 09:00 AM - 06:00 PM</span></i>
+      <i class="bi bi-phone d-flex align-items-center"><span style="color: rgba(39, 37, 34, 0.8) !important;">+91 97474 87010</span></i>
+      <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"><span style="color: rgba(39, 37, 34, 0.8)!important;">Mon-Sat: 09:00 AM - 06:00 PM</span></i>
     </div>
   </section>
 
@@ -52,21 +54,23 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <div class="logo me-auto">
-        <h1><a href="index.html">Zest India Services</a></h1>
+        <h1><a href="index.html" 
+        style="FONT-WEIGHT: 900;font-size: 40px;color: #048d4b;
+      " >Zest India Services</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#menu">Products</a></li>
+          <li><a class="nav-link scrollto active pill" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto pill" href="#about">About</a></li>
+          <li><a class="nav-link scrollto pill" href="#menu">Products</a></li>
           <!-- <li><a class="nav-link scrollto" href="#specials">Specials</a></li> -->
 
-          <li><a class="nav-link scrollto" href="#chefs">Clients</a></li>
+          <li><a class="nav-link scrollto pill" href="#chefs">Clients</a></li>
          
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto pill" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -78,76 +82,87 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container">
-      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+            <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
-        <div class="carousel-inner" role="listbox">
+            <div class="carousel-inner" role="listbox">
 
-          <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg);">
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown"><span>Zest India</span> Services</h2>
-                <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, Ut velit est quam dolor ad a
-                  aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
-                  mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et
-                  tempore modi architecto.</p>
-                <div>
-                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Our Products</a>
+                <!-- Slide 1 -->
+                <div class="carousel-item active"
+                 style="background-image: url(assets/img/slide/slide-1.jpg);">
+                    <div class="carousel-container">
+                        <div class="carousel-content">
+                           <h2 class="animate__animated animate__fadeInDown"><span>Zest India</span> Services</h2> -->
+                            <p style="color: rgba(39, 37, 34, 0.8) !important;" class="glass-container animate__animated animate__fadeInUp ">Lorem ipsum dolor sit amet, Ut velit est
+                                quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut
+                                aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque
+                                accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p> 
+                            <div>
+                                <a  style=" background: rgba(255, 255, 255, 0.2);backdrop-filter: blur(10px);box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"
+                                 href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Our
+                                    Products</a>
 
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <!-- Slide 2 -->
-          <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg);">
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown"><span>Zest India</span> Services</h2>
-                <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, Ut velit est quam dolor ad a
-                  aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
-                  mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et
-                  tempore modi architecto.</p>
-                <div>
-                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Our Products</a>
+                <!-- Slide 2 -->
+                <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg);">
+                    <div class="carousel-container" >
+                        <div class="carousel-content" >
+                            <!-- <h2 class="animate__animated animate__fadeInDown"><span>Zest India</span> Services</h2> -->
+                            <p style="color: rgba(39, 37, 34, 0.8) !important;" class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, Ut velit est
+                                quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut
+                                aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque
+                                accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                            <div>
+                                <a href="#menu" 
+                                style=" background: rgba(255, 255, 255, 0.2);backdrop-filter: blur(10px);box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"
+                                 class="btn-menu animate__animated animate__fadeInUp scrollto">Our
+                                    Products</a>
 
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown"><span>Zest India</span> Services</h2>
-                <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, Ut velit est quam dolor ad a
-                  aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem
-                  mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et
-                  tempore modi architecto.</p>
-                <div>
-                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Our Products</a>
+                <!-- Slide 3 -->
+                <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
+                    <div class="carousel-container">
+                        <div class="carousel-content">
+                            <!-- <h2 class="animate__animated animate__fadeInDown"><span>Zest India</span> Services</h2> -->
+                            <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, Ut velit est
+                                quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut
+                                aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque
+                                accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                            <div>
+                                <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Our
+                                    Products</a>
 
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+
             </div>
-          </div>
+
+            <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+            </a>
+
+            <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+            </a>
 
         </div>
-
-        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
-
-        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
-
-      </div>
     </div>
-  </section><!-- End Hero -->
+</section>
+
+
+
+ <!-- End Hero -->
 
   <main id="main">
 
@@ -265,7 +280,11 @@
           <div class="col-lg-6 menu-item filter-starters">
             <div class="menu-content">
               <a href="#">Bath Soap</a><span></span>
+              <!-- <div class="image-parent">
+                <img style="border-radius:10px"  src="https://vien-angular.coloredstrategies.com/assets/img/products/marble-cake-thumb.jpg" class="img-fluid" alt="quixote">
+            </div> -->
             </div>
+            
             <div class="menu-ingredients">
               15/20 gm  with paper pouch,  20gm in PP cover/round pleat wrap,22 gm Glycerin 
             </div>
@@ -475,93 +494,76 @@
         </div>
 
         <div class="row">
-
-        
-
-          <div class="col-lg-4 col-md-6">
-            <!-- <div class="member">
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Master Chef</span>
-                <div class="pic">
-                  <img src="https://thewindsorcastle.co.in/wp-content/uploads/2022/11/logo-new-01.png" 
-                  class="img-fluid" alt=""></div>
-             
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+          <div class="col-12 col-sm-4 col-lg-4">
+           
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 85px;">
+                The Windsor Castle
+                <div class="image-parent">
+                    <img style="border-radius:10px"  src="https://thewindsorcastle.co.in/wp-content/uploads/2022/11/logo-new-01.png" class="img-fluid" alt="quixote">
                 </div>
-              </div>
-            </div> -->
-
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="https://thewindsorcastle.co.in/wp-content/uploads/2022/11/logo-new-01.png" alt="Card image cap">
-              <div class="card-body">
-                
-              </div>
-            </div>
-
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 85px;">
+                KGA Elite Continental 
+                <div class="image-parent">
+                    <img style="border-radius:10px"  src="https://kgaelitehotel.com/img/logo.png" class="img-fluid" alt="quixote">
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 85px;">  
+                Vythiri Village Resort
+                <div class="image-parent">
+                   <img style="border-radius:10px"  src="https://www.vythirivillage.com/wp-content/uploads/2020/08/VYTHIRI-LOGO-WEB-1536x1180.png" class="img-fluid" alt="quixote">
+              </li>
+            </ul>
           </div>
-
-        
-
-          <div class="col-lg-4 col-md-6">
-            <!-- <div class="member">
-              <div class="pic"><img src="assets/img/chefs/chefs-3.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>Cook</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+          
+           <div class="col-12 col-sm-4 col-lg-4">
+           
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 85px;">
+                Indraprastha
+                <div class="image-parent">
+                   <img style="border-radius:10px"  src="	http://www.indraprasthatouristhome.com/images/indrapratha_logo.png" class="img-fluid" alt="quixote">
                 </div>
-              </div>
-            </div> -->
-
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="http://www.hotelmalayoramgateway.com/imgs/malayoram-logo.png" alt="Card image cap">
-              <div class="card-body">
-                
-              </div>
-            </div>
-
-
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 85px;">
+                Malabar Palace
+                <div class="image-parent">
+                    <img style="border-radius:10px"  src="https://manuelsonsmalabarpalace.com/app_assets/images/logo.jpg" class="img-fluid" alt="quixote">
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 85px;">  
+                Nesma Palace
+                <div class="image-parent">
+                    <img style="border-radius:10px;background-color: grey;"   src="https://nesmapalace.com/wp-content/uploads/2021/04/logo-white-png.png" class="img-fluid" alt="quixote">
+              </li>
+            </ul>
           </div>
-
-          <div class="col-lg-4 col-md-6">
-            <!-- <div class="member">
-              <div class="pic"><img src="assets/img/chefs/chefs-3.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>Cook</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+          
+           <div class="col-12 col-sm-4 col-lg-4">
+           
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 85px;">
+                Malayoram Gate way 
+                <div class="image-parent">
+                     <img style="border-radius:10px"  src="http://www.hotelmalayoramgateway.com/imgs/malayoram-logo.png" class="img-fluid" alt="quixote">
                 </div>
-              </div>
-            </div> -->
-
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="https://kgaelitehotel.com/img/logo.png" alt="Card image cap">
-              <div class="card-body">
-                
-              </div>
-            </div>
-
-
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 85px;">
+                Mereena Residency 
+                <div class="image-parent">
+                    <img style="border-radius:10px"  src="https://marinaresidency.com/wp-content/uploads/2022/10/Custom_dimensions_750x250_px-removebg-preview.png" class="img-fluid" alt="quixote">
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center" style="height: 85px;">  
+                Meditrina Hospital
+                <div class="image-parent">
+                    <img style="border-radius:10px" 
+                     src="http://www.meditrinahospitals.com/assets/images/logo.png" class="img-fluid" alt="quixote">
+              </li>
+            </ul>
           </div>
-
+          
         </div>
-
-
-
       </div>
+      
     </section><!-- End Chefs Section -->
 
     
